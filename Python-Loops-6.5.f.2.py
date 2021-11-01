@@ -31,6 +31,8 @@ for numerovlans in range (2,149):
 
 executar_telnet.write("end\n")
 executar_telnet.write("write\n")
+executar_telnet.write("exit\n")
+
 
 print executar_telnet.read_all() #printa tudo o que foi executado dentro da var$
 
